@@ -1,0 +1,10 @@
+-- Failure count per device
+SELECT device, COUNT(*) as failures
+FROM logs
+WHERE status = 'FAIL'
+GROUP BY device;
+
+-- Average CPU usage per device
+SELECT device, AVG(cpu_usage) as avg_cpu
+FROM logs
+GROUP BY device;
