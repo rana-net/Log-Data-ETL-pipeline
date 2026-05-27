@@ -22,19 +22,6 @@ It simulates real-world data engineering workflows such as:
 
 ---
 
-## 📂 Project Structure
-
-```
-data-pipeline-project/
-│── etl.py
-│── logs.csv
-│── queries.sql
-│── requirements.txt
-│── README.md
-```
-
----
-
 ## 🔄 ETL Workflow
 
 ### 1️⃣ Extract
