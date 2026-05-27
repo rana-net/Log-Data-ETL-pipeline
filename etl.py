@@ -10,7 +10,7 @@ print("Data Loaded:\n", df)
 
 df['cpu_usage'] = df['cpu_usage'].astype(int)
 
-# Create new column (important for interviews)
+
 df['status_flag'] = df['status'].apply(lambda x: 1 if x == "FAIL" else 0)
 
 print("\nTransformed Data:\n", df)
